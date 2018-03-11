@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:weightSum="7"
+    tools:context="com.example.jain.teacherevaluation.EighthSemesterActivity">
+
+    <TextView
+        android:id="@+id/textViewThirdSemesterChoose"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:text="Choose a Subject:\n"
+        android:textColor="#1b1b68"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewThirdSemesterDS"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="1. Data Structures"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textViewThirdSemesterDBMS"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="2. Data Base Management System"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewThirdSemesterIF"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="3. Internet Fundamentals"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textViewThirdSemesterAC"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="4. Analog Communication"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textViewThirdSemesterDIS"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="5. Discrete Structures and Mathematics"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textViewThirdSemesterBEM"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="6. Basics of Economics and Management"
+        android:textSize="22sp" />
+</LinearLayout>

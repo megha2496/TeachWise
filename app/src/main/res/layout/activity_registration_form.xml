@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="7dp"
+    android:orientation="vertical"
+    android:weightSum="12"
+    tools:context="com.example.jain.teacherevaluation.RegistrationFormActivity">
+
+    <ScrollView
+        android:id="@+id/scrollViewFormScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewFormRegistrationForm"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="3dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Registration Form"
+                android:textAllCaps="true"
+                android:textColor="#1f1f6e"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/editTextRegistrationFormRollNo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Roll No."
+                android:padding="7dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextRegistrationFormName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Name"
+                android:padding="7dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextRegistrationFormFathersName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Father's Name"
+                android:padding="7dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextRegistrationFormBatch"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Batch"
+                android:inputType="textPostalAddress"
+                android:padding="7dp"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/editTextRegistrationFormEmail"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="7dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextRegistrationFormPassword"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="7dp" />
+
+            <TextView
+                android:id="@+id/textViewRegistrationFormGender"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="7dp"
+                android:text="Gender:"
+                android:textColor="#646665"
+                android:textSize="20sp" />
+
+            <RadioGroup
+
+                android:id="@+id/radioButtonGroupRegistrationForm"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:checkedButton="@+id/radioButtonRegistrationFormMale"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="7dp"
+                android:weightSum="10">
+
+                <RadioButton
+                    android:id="@+id/radioButtonRegistrationFormMale"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:padding="1dp"
+                    android:text="Male"
+                    android:textColor="#646665"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonRegistrationFormFemale"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:padding="1dp"
+                    android:text="Female"
+                    android:textColor="#646665"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonRegistrationFormOther"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:padding="1dp"
+                    android:text="Other"
+                    android:textColor="#646665"
+                    android:textSize="20dp" />
+
+            </RadioGroup>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/textViewRegistrationFormTelephoneNumber"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:padding="7dp"
+                    android:text="+91"
+                    android:textColor="#646665"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutRegistrationFormTelephoneNumber"
+                    android:layout_width="2dp"
+                    android:layout_height="25sp"
+                    android:background="#646665"
+                    android:orientation="vertical"></LinearLayout>
+
+                <EditText
+                    android:id="@+id/editTextRegistrationFormTelephoneNumber"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:hint="Contact Number"
+                    android:inputType="number"
+                    android:padding="7dp"
+                    android:singleLine="true"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutRegistrationFormNextButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="BackToLogin"
+                    android:id="@+id/buttonRegistrationFormRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/form_button_background"
+                    android:gravity="center"
+                    android:padding="7dp"
+                    android:text="Next"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9"
+    tools:context="com.example.jain.teacherevaluation.InfoActivity">
+
+    <TextView
+        android:id="@+id/textViewInfoTeacherEvaluation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="TEACHER EVALUATION"
+        android:textColor="#1b1b68"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewInfoVersion"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Version 1.0"
+        android:textColor="#1b1b68"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/imageViewInfoLogo"
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textViewInfoDevelopedBy"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Developed By:"
+        android:textColor="#1b1b68"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewInfoTyro"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="TYRO ENGINEERS"
+        android:textColor="#1b1b68"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/textViewInfoTeam"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Team:"
+        android:textColor="#1b1b68"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewInfoTeamMembers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="Saksham Saigal\nMegha Jain"
+        android:textColor="#1b1b68"
+        android:textSize="23sp" />
+
+
+</LinearLayout>

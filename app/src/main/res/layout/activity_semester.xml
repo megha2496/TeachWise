@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:weightSum="7"
+    tools:context="com.example.jain.teacherevaluation.SemesterActivity">
+
+    <TextView
+        android:id="@+id/textViewSemester"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="SEMESTERS"
+        android:textColor="#1b1b68"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSemesterTop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/imageViewSemester3"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="ThirdSemester"
+            android:src="@drawable/sembutton3" />
+
+        <ImageView
+            android:id="@+id/imageViewSemester4"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="FourthSemester"
+            android:src="@drawable/sembutton4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSemesterMiddle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/imageViewSemester5"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="FifthSemester"
+            android:src="@drawable/sembutton5" />
+
+        <ImageView
+            android:id="@+id/imageViewSemester6"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="SixthSemester"
+            android:src="@drawable/sembutton6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSemesterBottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/imageViewSemester7"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="SeventhSemester"
+            android:src="@drawable/sembutton7" />
+
+        <ImageView
+            android:id="@+id/imageViewSemester8"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="EighthSemester"
+            android:src="@drawable/sembutton8" />
+    </LinearLayout>
+</LinearLayout>
