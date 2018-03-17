@@ -10,35 +10,17 @@
 
 
     <LinearLayout
-        android:id="@+id/linearLayoutLoginTop"
+        android:id="@+id/linearLayoutHomeTop"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
         android:background="#FFF9C4"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:weightSum="4">
-
-        <RelativeLayout
-            android:id="@+id/relativeLayoutLoginFaculty"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1">
-
-            <TextView
-                android:id="@+id/textViewLoginLoginAsFaculty"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="5dp"
-                android:onClick="LoginAsFaculty"
-                android:text="Login as Faculty"
-                android:textColor="#FF5B0845"
-                android:textSize="15sp" />
-        </RelativeLayout>
+        android:weightSum="3">
 
         <ImageView
+            android:layout_margin="5dp"
             android:id="@+id/imageViewLoginLogo"
             android:layout_width="120dp"
             android:layout_height="0dp"
@@ -59,7 +41,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayoutLoginMiddle"
+        android:id="@+id/linearLayoutHomeMiddle"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="6"
@@ -71,19 +53,19 @@
 
 
         <TextView
-            android:id="@+id/textViewLoginStudentLogin"
+            android:id="@+id/textViewLoginFacultyWelcome"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="STUDENT LOGIN SECTION"
+            android:text="FACULTY LOGIN SECTION"
             android:textColor="#ffffff"
             android:textSize="20sp"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editTextLoginUserID"
+            android:id="@+id/editTextLoginFacultyUserID"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="10dp"
@@ -94,7 +76,7 @@
             android:singleLine="true" />
 
         <EditText
-            android:id="@+id/editTextLoginPassword"
+            android:id="@+id/editTextLoginFacultyPassword"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="10dp"
@@ -108,7 +90,7 @@
 
 
         <Button
-            android:id="@+id/buttonLoginSignin"
+            android:id="@+id/buttonLoginFacultySignin"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginLeft="10dp"
@@ -116,25 +98,12 @@
             android:layout_marginTop="16dp"
             android:layout_weight="1"
             android:background="@drawable/form_button_background"
-            android:onClick="Login"
+            android:onClick="LoginFaculty"
             android:text="Sign in "
             android:textColor="#ffffff"
             android:textSize="20dp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textViewLoginRegister"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-            android:layout_weight="1"
-            android:onClick="Register"
-            android:text="Do not have an Account? Register"
-            android:textColor="#FF5B0845"
-            android:textSize="15dp"
-            android:textStyle="bold" />
 
     </LinearLayout>
-
 </LinearLayout>

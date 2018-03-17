@@ -14,13 +14,20 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void Login(View view) {
-        Intent intent = new Intent(LoginActivity.this, SemesterActivity.class);
-        finish();
+        Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+        //finish();
         startActivity(intent);
     }
+
     public void Register(View view) {
         Intent intent = new Intent(LoginActivity.this, RegistrationFormActivity.class);
         finish();
+        startActivity(intent);
+    }
+
+    public void LoginAsFaculty(View view) {
+        Intent intent = new Intent(LoginActivity.this, FacultyLoginActivity.class);
+        //finish();
         startActivity(intent);
     }
 }

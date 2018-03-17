@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">TeacherEvaluation</string>
+    <string name="app_name">TeachWise</string>
+    <!--<string name="background_color1">#FFF9C4</string>
+    <string name="background_color2">#FF6E40</string>
+    <string name="semester_text_color">#1e1e1e</string>-->
+    <string name="choose">CHOOSE A SUBJECT</string>
 </resources>

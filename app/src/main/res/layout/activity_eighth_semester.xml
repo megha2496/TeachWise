@@ -3,51 +3,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="20dp"
     android:orientation="vertical"
-    android:weightSum="5"
+    android:background="#FFF9C4"
     tools:context="com.example.jain.teacherevaluation.EighthSemesterActivity">
 
-    <TextView
-        android:id="@+id/textViewEighthSemesterChoose"
+   <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_margin="10dp"
-        android:layout_weight="1"
-        android:text="Choose a Subject:\n"
-        android:textColor="#1b1b68"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:weightSum="5">
 
-    <TextView
-        android:id="@+id/textViewEighthSemesterDWDM"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="1. Data Warehousing and Data Mining"
-        android:textSize="25sp" />
 
-    <TextView
-        android:id="@+id/textViewEighthSemesterNNFL"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="2. Nueral Network and Fuzzy Logic"
-        android:textSize="25sp" />
+        <TextView
+            android:id="@+id/textViewEighthSemesterChoose"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="@string/choose"
+            android:textColor="#1b1b68"
+            android:textSize="28sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textViewEighthSemesterICG"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="3. Interactive Computer Graphics"
-        android:textSize="25sp" />
+        <TextView
+            android:id="@+id/textViewEighthSemesterDWDM"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="QuestionList"
+            android:text="1. DWDM"
+            android:textSize="25sp"
+            android:textColor="#1e1e1e"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textViewEighthSemesterES"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="4. Expert Systems"
-        android:textSize="25sp" />
+        <TextView
+            android:id="@+id/textViewEighthSemesterNNFL"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="QuestionList"
+            android:text="2. NNFL"
+            android:textColor="#1e1e1e"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewEighthSemesterICG"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="QuestionList"
+            android:text="3. ICG"
+            android:textColor="#1e1e1e"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewEighthSemesterES"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="QuestionList"
+            android:text="4. ES"
+            android:textColor="#1e1e1e"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 </LinearLayout>

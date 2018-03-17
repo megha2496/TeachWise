@@ -5,17 +5,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class FifthSemesterActivity extends AppCompatActivity {
+public class FacultyLoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fifth_semester);
+        setContentView(R.layout.activity_faculty_login);
     }
 
-    public void QuestionList(View view) {
-        Intent intent = new Intent(FifthSemesterActivity.this, QuestionListActivity.class);
+    public void LoginFaculty(View view) {
+        Intent intent = new Intent(FacultyLoginActivity.this, FacultyHomeActivity.class);
         //finish();
         startActivity(intent);
     }
 }
+
+

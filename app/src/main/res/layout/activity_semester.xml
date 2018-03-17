@@ -9,7 +9,7 @@
     tools:context="com.example.jain.teacherevaluation.SemesterActivity">
 
     <TextView
-        android:id="@+id/textViewSemester"
+        android:id="@+id/textViewSemesterSemesters"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"

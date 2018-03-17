@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewQuestionViewQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Question"
+        android:textColor="#1e1e1e"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioButtonGroupQuestionView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radioButtonQuestionViewAnswer1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="9">
+
+        <RadioButton
+            android:id="@+id/radioButtonQuestionViewAnswer1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Option 1"
+            android:textColor="#1e1e1e"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonQuestionViewAnswer2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Option 2"
+            android:textColor="#1e1e1e"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonQuestionViewOther"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Other"
+            android:textColor="#1e1e1e"
+            android:textSize="18dp" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextQuestionViewSuggestionBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="start"
+        android:hint="Please give your suggestions"
+        android:lines="3"
+        android:padding="10dp"
+        android:singleLine="false" />
+
+</LinearLayout>

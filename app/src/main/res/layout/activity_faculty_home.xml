@@ -9,7 +9,7 @@
     tools:context="com.example.jain.teacherevaluation.HomeActivity">
 
     <LinearLayout
-        android:id="@+id/linearLayoutHomeTop"
+        android:id="@+id/linearLayoutFacultyHomeTop"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
@@ -19,7 +19,7 @@
         android:weightSum="3">
 
         <ImageView
-            android:id="@+id/imageViewHomeLogo"
+            android:id="@+id/imageViewFacultyHomeLogo"
             android:layout_width="120dp"
             android:layout_height="0dp"
             android:layout_margin="5dp"
@@ -27,7 +27,7 @@
             android:src="@drawable/logo" />
 
         <TextView
-            android:id="@+id/textViewHomeTeacherEvaluation"
+            android:id="@+id/textViewFacultyHomeTeachWise"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -40,7 +40,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayoutHomeMiddle"
+        android:id="@+id/linearLayoutFacultyHomeMiddle"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="6"
@@ -51,18 +51,19 @@
         android:weightSum="8">
 
         <TextView
-            android:id="@+id/textViewHomeWelcome"
+            android:id="@+id/textViewFacultyHomeWelcome"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginBottom="15dp"
             android:layout_weight="7"
             android:gravity="center"
-            android:text="Welcome to TeachWise application Student activity section."
+            android:text="Welcome to TeachWise application Faculty activity section."
             android:textColor="#ffffff"
             android:textSize="20sp"
             android:textStyle="bold" />
 
         <LinearLayout
+            android:id="@+id/linearLayoutFacultyHomeMiddleButtons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
@@ -72,32 +73,30 @@
             android:weightSum="2">
 
             <Button
-                android:id="@+id/buttonHomeBookAppointment"
+                android:id="@+id/buttonFacultyHomeViewRatings"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/home_button_background"
                 android:drawableTop="@drawable/ic_rate_review_black_24dp"
-                android:onClick="RecordRating"
                 android:padding="18dp"
-                android:text="Record\nRatings"
+                android:text="View\nRatings"
                 android:textAllCaps="false"
                 android:textColor="#ffffff"
                 android:textSize="17sp"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/buttonHomeDoctorsAvailable"
+                android:id="@+id/buttonFacultyHomeSendMessage"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/home_button_background"
                 android:drawableTop="@drawable/ic_format_list_bulleted_black_24dp"
-                android:onClick="ReadInstructions"
                 android:padding="18dp"
-                android:text="Read\nInstructions"
+                android:text="Send\nMessage"
                 android:textAllCaps="false"
                 android:textColor="#ffffff"
                 android:textSize="17sp"
@@ -106,7 +105,7 @@
     </LinearLayout>
 
     <RelativeLayout
-        android:id="@+id/relativeLayoutHomeBottom"
+        android:id="@+id/relativeLayoutFacultyHomeBottom"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_alignParentBottom="true"

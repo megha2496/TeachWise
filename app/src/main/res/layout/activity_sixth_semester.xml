@@ -2,60 +2,83 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#FFF9C4"
     android:layout_height="match_parent"
-    android:layout_margin="20dp"
     android:orientation="vertical"
-    android:weightSum="6"
     tools:context="com.example.jain.teacherevaluation.EighthSemesterActivity">
 
-    <TextView
-        android:id="@+id/textViewEighthSemesterChoose"
+    <LinearLayout
+        android:id="@+id/linearLayoutSixthSemester"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_margin="10dp"
-        android:layout_weight="1"
-        android:text="Choose a Subject:\n"
-        android:textColor="#1b1b68"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:weightSum="6">
 
-    <TextView
-        android:id="@+id/textViewSixthSemesterNMS"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="1. Network Management and Security"
-        android:textSize="25sp" />
+        <TextView
+            android:id="@+id/textViewSixthSemesterChoose"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="@string/choose"
+            android:textColor="#1b1b68"
+            android:textSize="28sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textViewSixthSemesterCHT"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="2. Computer Hardware and Technology"
-        android:textSize="25sp" />
+        <TextView
+            android:id="@+id/textViewSixthSemesterNMS"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="QuestionList"
+            android:text="1. NMS"
+            android:textColor="#1e1e1e"
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textViewSixthSemesterSE"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="3. Software Engineering"
-        android:textSize="25sp" />
+        <TextView
+            android:id="@+id/textViewSixthSemesterCHT"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="QuestionList"
+            android:text="2. CHT"
+            android:textColor="#1e1e1e"
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textViewSixthSemesterADS"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="4. Advance Database Systems"
-        android:textSize="25sp" />
+        <TextView
+            android:id="@+id/textViewSixthSemesterSE"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="QuestionList"
+            android:text="3. SE"
+            android:textColor="#1e1e1e"
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textViewSixthSemesterMC"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="5. Mobile Communication"
-        android:textSize="25sp" />
+        <TextView
+            android:id="@+id/textViewSixthSemesterADS"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="QuestionList"
+            android:text="4. ADS"
+            android:textColor="#1e1e1e"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewSixthSemesterMC"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="QuestionList"
+            android:text="5. MC"
+            android:textColor="#1e1e1e"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 </LinearLayout>

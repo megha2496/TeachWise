@@ -26,13 +26,13 @@ public class SplashActivity extends AppCompatActivity {
         actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#1f1f6e")));
 
         mProgress = (ProgressBar) findViewById(R.id.progressBarSplash);
-        textView = (TextView) findViewById(R.id.textViewSplashProgressBar);
+        textView = (TextView) findViewById(R.id.textViewSplashProgressBarOpening);
         final Handler handler = new Handler();
         Runnable runnable = new Runnable() {
             @Override
             public void run() {
                 if (value == 100) {
-                    Intent intent = new Intent(SplashActivity.this, HomeActivity.class);
+                    Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
                     startActivity(intent);
                     finish();
                 } else {

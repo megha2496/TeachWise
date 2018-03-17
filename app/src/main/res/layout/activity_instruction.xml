@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF59D"
+    android:background="#FFF9C4"
     android:orientation="vertical"
     tools:context="com.example.jain.teacherevaluation.InstructionActivity">
 
@@ -33,36 +33,36 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:text="a) Please be very conscientious while performing the evaluation."
-                android:textSize="20sp" />
+                android:text="a) Please be very conscientious while giving the answers."
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:text="b) Consider the entire semester and not just recent events."
-                android:textSize="20sp" />
+                android:text="b) The questions have three options to choose from. If the option 'Other' is chosen, user can leave a suggestion in the suggestion box provided along every question."
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:text="c) Your performance in the course or your personal like/dislike of the instructor should not affect the professional evaluation of the instructor."
-                android:textSize="20sp" />
+                android:text="c) Your performance in the course or your personal like/dislike of the instructor should not affect the choice filling."
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:text="d) The evaluation is divided in 5 levels with 1 (lowest) and 5(highest). Only exceptional instructors should be rated as 5."
-                android:textSize="20sp" />
+                android:text="d) Consider the entire semester and not just recent events during choice filling."
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:text="e) This evaluation is confidential information. What you fill here should not be discussed with other students/instructors after the evaluation."
-                android:textSize="20sp" />
+                android:text="e) This process is confidential information. What you fill here should not be discussed with other students/instructors."
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView"
@@ -70,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:text="f) This evaluation will not affect your grading in the sessional. The faculty will not be provided with the results. They will only receive a tabulated result."
-                android:textSize="20sp" />
+                android:textSize="18sp" />
 
 
         </LinearLayout>

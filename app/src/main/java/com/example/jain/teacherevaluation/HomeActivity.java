@@ -15,7 +15,7 @@ public class HomeActivity extends AppCompatActivity {
 
 
     public void RecordRating(View view) {
-        Intent intent = new Intent(HomeActivity.this, LoginActivity.class);
+        Intent intent = new Intent(HomeActivity.this, SemesterActivity.class);
         //finish();
         startActivity(intent);
     }
@@ -25,8 +25,8 @@ public class HomeActivity extends AppCompatActivity {
         //finish();
         startActivity(intent);
     }
-    public void InfoAlert(View view) {
 
+    public void InfoAlert(View view) {
         Intent intent = new Intent(HomeActivity.this, InfoActivity.class);
         //finish();
         startActivity(intent);

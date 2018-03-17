@@ -3,59 +3,81 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="20dp"
     android:orientation="vertical"
-    android:weightSum="6"
+    android:background="#FFF9C4"
     tools:context="com.example.jain.teacherevaluation.EighthSemesterActivity">
 
-    <TextView
-        android:id="@+id/textViewEighthSemesterChoose"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_margin="10dp"
-        android:layout_weight="1"
-        android:text="Choose a Subject:\n"
-        android:textColor="#1b1b68"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:weightSum="6">
 
-    <TextView
-        android:id="@+id/textViewFifthSemesterAT"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="1. Automata Theory"
-        android:textSize="25sp" />
+        <TextView
+            android:id="@+id/textViewEighthSemesterChoose"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="@string/choose"
+            android:textColor="#1b1b68"
+            android:textSize="28sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textViewFifthSemesterCN"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="2. Computer Networks"
-        android:textSize="25sp" />
+        <TextView
+            android:id="@+id/textViewFifthSemesterAT"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="#1e1e1e"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:onClick="QuestionList"
+            android:text="1. Automata Theory"
+            android:textSize="25sp" />
 
-    <TextView
-        android:id="@+id/textViewFifthSemesterOS"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="3. Operating Systems"
-        android:textSize="25sp" />
+        <TextView
+            android:id="@+id/textViewFifthSemesterCN"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="QuestionList"
+            android:textColor="#1e1e1e"
+            android:textStyle="bold"
+            android:text="2. CN"
+            android:textSize="25sp" />
 
-    <TextView
-        android:id="@+id/textViewFifthSemesterDAA"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="4. Design and Analysis of Algorithms"
-        android:textSize="25sp" />
+        <TextView
+            android:id="@+id/textViewFifthSemesterOS"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="#1e1e1e"
+            android:textStyle="bold"
+            android:onClick="QuestionList"
+            android:text="3. OS"
+            android:textSize="25sp" />
 
-    <TextView
-        android:id="@+id/textViewFifthSemesterFOM"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="5. Fundamentals of Management"
-        android:textSize="25sp" />
+        <TextView
+            android:id="@+id/textViewFifthSemesterDAA"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="#1e1e1e"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:onClick="QuestionList"
+            android:text="4. DAA"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textViewFifthSemesterFOM"
+            android:layout_width="match_parent"
+            android:textColor="#1e1e1e"
+            android:textStyle="bold"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="QuestionList"
+            android:text="5. FOM"
+            android:textSize="25sp" />
+    </LinearLayout>
 </LinearLayout>

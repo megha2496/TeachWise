@@ -10,18 +10,19 @@
     tools:context="com.example.jain.teacherevaluation.RegistrationFormActivity">
 
     <ScrollView
-        android:id="@+id/scrollViewFormScrollView1"
+        android:id="@+id/scrollViewRegistrationFormScrollView1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="vertical">
 
         <LinearLayout
+            android:id="@+id/linearLayoutRegistrationForm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textViewFormRegistrationForm"
+                android:id="@+id/textViewRegistrationFormRegistrationForm"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_marginBottom="3dp"
@@ -30,7 +31,7 @@
                 android:padding="5dp"
                 android:text="Registration Form"
                 android:textAllCaps="true"
-                android:textColor="#1f1f6e"
+                android:textColor="#1e1e1e"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
@@ -158,6 +159,7 @@
 
 
             <LinearLayout
+                android:id="@+id/linearLinearRegistrationFormTelephoneNumber"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
@@ -203,12 +205,12 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:onClick="BackToLogin"
                     android:id="@+id/buttonRegistrationFormRegister"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/form_button_background"
                     android:gravity="center"
+                    android:onClick="BackToLogin"
                     android:padding="7dp"
                     android:text="Next"
                     android:textColor="#ffffff"
